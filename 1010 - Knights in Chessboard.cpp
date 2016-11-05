@@ -9,7 +9,7 @@ int main() {
     scanf("%d", &t);
     while(t--){
         scanf("%d %d", &n, &m);
-        if (m > n) swap(m,n);
+        if (m > n) swap(m, n);
         if ((n % 4 == 0 && m == 2)|| m == 1) m = n;
         else if(n % 2 == 0 && m == 2) m = n + 2;
         else if(n % 2 != 0 && (m == 2)) m = n + 1;
